@@ -7,8 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Mockito-Exercises" />
+        <module name="LibraryManagement" />
         <module name="SLF4J-Logging" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring-Core-Maven" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

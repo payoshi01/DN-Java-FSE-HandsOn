@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/spring-data-jpa-handson/pom.xml" />
         <option value="$PROJECT_DIR$/spring-rest-handson/pom.xml" />
         <option value="$PROJECT_DIR$/spring-rest-handson-2/pom.xml" />
+        <option value="$PROJECT_DIR$/jwt-handson/pom.xml" />
       </list>
     </option>
   </component>

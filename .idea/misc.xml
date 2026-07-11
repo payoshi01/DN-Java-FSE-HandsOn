@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/Spring-Core-Maven/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Core-Maven/LibraryManagement/pom.xml" />
         <option value="$PROJECT_DIR$/spring-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-data-jpa-handson/pom.xml" />
       </list>
     </option>
   </component>

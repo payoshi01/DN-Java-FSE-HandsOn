@@ -7,17 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LibraryManagement" />
-        <module name="spring-learn" />
         <module name="Mockito-Exercises" />
+        <module name="spring-data-jpa-handson" />
         <module name="SLF4J-Logging" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spring-Core-Maven" target="1.5" />
+      <module name="spring-learn" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-data-jpa-handson" options="-parameters" />
       <module name="spring-learn" options="-parameters" />
     </option>
   </component>

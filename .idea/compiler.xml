@@ -7,21 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-rest-handson-2" />
+        <module name="loan" />
         <module name="spring-data-jpa-handson" />
         <module name="jwt-handson" />
         <module name="LibraryManagement" />
         <module name="spring-learn" />
         <module name="Mockito-Exercises" />
         <module name="SLF4J-Logging" />
+        <module name="account" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Microservices-with-APIgateway" target="21" />
       <module name="Spring-Core-Maven" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account" options="-parameters" />
       <module name="jwt-handson" options="-parameters" />
+      <module name="loan" options="-parameters" />
       <module name="spring-data-jpa-handson" options="-parameters" />
       <module name="spring-learn" options="-parameters" />
       <module name="spring-rest-handson-2" options="-parameters" />
